@@ -29,8 +29,11 @@ Currently looking for a software developer opportunity to change carrier and hav
 
 ### **Developing experience**
 1. ["Dashboard of mentor" was made within the program RSSchool, February 2019][Dashboard]
+
 Link to gh-pages of "Dashboard of mentor" is [this][GHDashboard]
+
 2. ["Portal of Belorussian Culture" is a group project within the program RSSchool, January 2019][CultPortal]
+
 Link to gh-pages of "Portal of Belorussian Culture" is [this][GHCultPortal]
 
 ***
