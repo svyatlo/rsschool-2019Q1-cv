@@ -83,6 +83,12 @@ td {
   justify-content: space-between;
 }
 
+.responsive-wrap {
+  display: flex;
+  justify-content: space-between;
+  width: 70%;
+}
+
 .photo {
   margin: 10px;
   height: 220px;
@@ -193,6 +199,10 @@ td {
   text-indent: 0;
 }
 
+.qualifications > span {
+  display: none;
+}
+
 .experience {
   margin: 0 25px 15px;
   font-size: 20px;
@@ -200,8 +210,117 @@ td {
   text-indent: 0;
 }
 
+.experience .period {
+  display: none;
+}
+
 .experience > span {
   display: block;
   font-size: 17px;
   font-weight: normal;
+}
+
+@media (max-width: 749px) {
+
+  h2,
+  h4 {
+    width: 220px;
+  }
+
+  .inner-wrap {
+    display: block;
+  }
+
+  .responsive-wrap {
+    width: 100%;
+    justify-content: space-around;
+  }
+
+  .name {
+    margin: 10px;
+  }
+
+  .contacts {
+    margin: 10px 25px;
+  }
+
+  .contacts__item {
+    display: inline-flex;
+    flex: none;
+    margin: 0 16px;
+  }
+
+}
+
+@media (max-width: 650px) {
+
+  h1 {
+    margin-top: 20px;
+    font-size: 40px;
+  }
+
+  h1 > span {
+    display: inline;
+  }
+
+  h2 {
+    width: 100%;
+    margin: 5px 25px;
+    font-size: 30px;
+    text-align: left;
+  }
+
+  h4 {
+    display: none;
+  }
+
+  hr {
+    margin-bottom: 10px;
+  }
+
+  section {
+    display: block;
+  }
+  
+  .inner-wrap {
+    text-align: center;
+  }
+
+  .responsive-wrap {
+    display: block;
+  }
+
+  .name > p {
+    text-align: center;
+  }
+
+  .additional {
+    display: none;
+  }
+
+  .contacts {
+    margin: 25px;
+  }
+
+  .content {
+    margin: 0 0 30px;
+  }
+
+  .skills > li:first-child {
+    margin-bottom: 10px;
+  }
+
+  th,
+  td {
+    padding: 5px;
+  }
+
+  .qualifications > span,
+  .experience .period {
+    display: inline;
+    margin-right: 15px;
+    font-size: 17px;
+    font-family: 'Fjalla One', sans-serif;
+    color: #dada0a;
+  }
 }
